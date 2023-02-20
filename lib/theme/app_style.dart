@@ -101,15 +101,6 @@ class AppStyle {
     fontWeight: FontWeight.w700,
   );
 
-  static TextStyle txtRobotoItalicRegular12 = TextStyle(
-    color: ColorConstant.whiteA70087,
-    fontSize: getFontSize(
-      12,
-    ),
-    fontFamily: 'Roboto',
-    fontWeight: FontWeight.w400,
-  );
-
   static TextStyle txtRobotoRomanRegular14Gray40099 = TextStyle(
     color: ColorConstant.gray40099,
     fontSize: getFontSize(

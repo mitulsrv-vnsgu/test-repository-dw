@@ -22,7 +22,7 @@ class SearchHistoryScreen extends GetWidget<SearchHistoryController> {
                     width: getSize(24),
                     svgPath: ImageConstant.imgArrowdown,
                     margin: getMargin(left: 8, top: 16, bottom: 16),
-                    onTap: onTapArrowleft3),
+                    onTap: onTapArrowleft2),
                 centerTitle: true,
                 title: AppbarSearchview(
                     hintText: "lbl_search_medium".tr,
@@ -73,7 +73,7 @@ class SearchHistoryScreen extends GetWidget<SearchHistoryController> {
                     ]))));
   }
 
-  onTapArrowleft3() {
+  onTapArrowleft2() {
     Get.back();
   }
 }

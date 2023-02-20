@@ -10,8 +10,6 @@ import 'package:auto_identification_percentage/presentation/recommended_screen/r
 import 'package:auto_identification_percentage/presentation/recommended_screen/binding/recommended_binding.dart';
 import 'package:auto_identification_percentage/presentation/sign_in_with_email_screen/sign_in_with_email_screen.dart';
 import 'package:auto_identification_percentage/presentation/sign_in_with_email_screen/binding/sign_in_with_email_binding.dart';
-import 'package:auto_identification_percentage/presentation/reading_list_screen/reading_list_screen.dart';
-import 'package:auto_identification_percentage/presentation/reading_list_screen/binding/reading_list_binding.dart';
 import 'package:auto_identification_percentage/presentation/search_history_screen/search_history_screen.dart';
 import 'package:auto_identification_percentage/presentation/search_history_screen/binding/search_history_binding.dart';
 import 'package:auto_identification_percentage/presentation/search_result_screen/search_result_screen.dart';
@@ -34,8 +32,6 @@ class AppRoutes {
   static const String recommendedScreen = '/recommended_screen';
 
   static const String signInWithEmailScreen = '/sign_in_with_email_screen';
-
-  static const String readingListScreen = '/reading_list_screen';
 
   static const String savedRecentlyViewedPage = '/saved_recently_viewed_page';
 
@@ -90,13 +86,6 @@ class AppRoutes {
       page: () => SignInWithEmailScreen(),
       bindings: [
         SignInWithEmailBinding(),
-      ],
-    ),
-    GetPage(
-      name: readingListScreen,
-      page: () => ReadingListScreen(),
-      bindings: [
-        ReadingListBinding(),
       ],
     ),
     GetPage(

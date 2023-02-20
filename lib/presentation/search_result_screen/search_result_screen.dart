@@ -22,7 +22,7 @@ class SearchResultScreen extends GetWidget<SearchResultController> {
                     width: getSize(24),
                     svgPath: ImageConstant.imgArrowdown,
                     margin: getMargin(left: 8, top: 16, bottom: 16),
-                    onTap: onTapArrowleft4),
+                    onTap: onTapArrowleft3),
                 centerTitle: true,
                 title: AppbarSearchview(
                     hintText: "lbl_android".tr,
@@ -66,7 +66,7 @@ class SearchResultScreen extends GetWidget<SearchResultController> {
                     ]))));
   }
 
-  onTapArrowleft4() {
+  onTapArrowleft3() {
     Get.back();
   }
 }

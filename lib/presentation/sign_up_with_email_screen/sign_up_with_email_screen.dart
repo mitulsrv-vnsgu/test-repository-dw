@@ -36,7 +36,7 @@ class SignUpWithEmailScreen extends GetWidget<SignUpWithEmailController> {
                               width: getHorizontalSize(178),
                               margin: getMargin(top: 9),
                               onTap: () {
-                                navigationDone();
+                                onTapImgImageOne();
                               }),
                           Align(
                               alignment: Alignment.centerLeft,
@@ -158,7 +158,7 @@ class SignUpWithEmailScreen extends GetWidget<SignUpWithEmailController> {
     Get.back();
   }
 
-  navigationDone() {
-// TODO: implement Actions
+  onTapImgImageOne() {
+    Get.toNamed(AppRoutes.welcomeScreen);
   }
 }

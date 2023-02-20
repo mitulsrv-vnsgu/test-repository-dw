@@ -139,6 +139,6 @@ class PublishPostBottomsheet extends StatelessWidget {
   }
 
   onTapPost() {
-// TODO: implement Actions
+    Get.toNamed(AppRoutes.homeContainerScreen);
   }
 }

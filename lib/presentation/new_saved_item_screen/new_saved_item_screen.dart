@@ -1,5 +1,9 @@
 import 'controller/new_saved_item_controller.dart';
 import 'package:auto_identification_percentage/core/app_export.dart';
+import 'package:auto_identification_percentage/presentation/explore_page/explore_page.dart';
+import 'package:auto_identification_percentage/presentation/home_page/home_page.dart';
+import 'package:auto_identification_percentage/presentation/profile_page/profile_page.dart';
+import 'package:auto_identification_percentage/presentation/saved_recently_viewed_page/saved_recently_viewed_page.dart';
 import 'package:auto_identification_percentage/widgets/custom_bottom_bar.dart';
 import 'package:auto_identification_percentage/widgets/custom_button.dart';
 import 'package:auto_identification_percentage/widgets/custom_icon_button.dart';
@@ -196,7 +200,6 @@ class NewSavedItemScreen extends GetWidget<NewSavedItemController> {
                             child: Card(
                               clipBehavior: Clip.antiAlias,
                               elevation: 0,
-                              margin: EdgeInsets.all(0),
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadiusStyle.roundedBorder3,
                               ),
@@ -375,9 +378,43 @@ class NewSavedItemScreen extends GetWidget<NewSavedItemController> {
           ),
         ),
         bottomNavigationBar: CustomBottomBar(
-          onChanged: (BottomBarEnum type) {},
+          onChanged: (BottomBarEnum type) {
+            Get.toNamed(getCurrentRoute(type), id: 1);
+          },
         ),
       ),
     );
+  }
+
+  ///Handling route based on bottom click actions
+  String getCurrentRoute(BottomBarEnum type) {
+    switch (type) {
+      case BottomBarEnum.Mail:
+        return AppRoutes.homePage;
+      case BottomBarEnum.Search:
+        return AppRoutes.explorePage;
+      case BottomBarEnum.Bookmark:
+        return AppRoutes.savedRecentlyViewedPage;
+      case BottomBarEnum.Unsplashj5almo1e8ru:
+        return AppRoutes.profilePage;
+      default:
+        return "/";
+    }
+  }
+
+  ///Handling page based on route
+  Widget getCurrentPage(String currentRoute) {
+    switch (currentRoute) {
+      case AppRoutes.homePage:
+        return HomePage();
+      case AppRoutes.explorePage:
+        return ExplorePage();
+      case AppRoutes.savedRecentlyViewedPage:
+        return SavedRecentlyViewedPage();
+      case AppRoutes.profilePage:
+        return ProfilePage();
+      default:
+        return DefaultWidget();
+    }
   }
 }

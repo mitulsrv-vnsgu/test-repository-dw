@@ -59,8 +59,8 @@ class HomePage extends StatelessWidget {
                                     child: Text("lbl_for_you".tr,
                                         overflow: TextOverflow.ellipsis,
                                         textAlign: TextAlign.left,
-                                        style: AppStyle
-                                            .txtRobotoRomanRegular12Black900dd)),
+                                        style:
+                                            AppStyle.txtRobotoRomanRegular12)),
                                 Container(
                                     width: getHorizontalSize(77),
                                     margin: getMargin(left: 8),

@@ -90,6 +90,6 @@ class SignInWithEmailScreen extends GetWidget<SignInWithEmailController> {
   }
 
   onTapSignin() {
-// TODO: implement Actions
+    Get.toNamed(AppRoutes.homeContainerScreen);
   }
 }

@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
   CustomAppBar(
       {required this.height,
+      this.styleType,
       this.leadingWidth,
       this.leading,
       this.title,
@@ -12,6 +13,8 @@ class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
       this.actions});
 
   double height;
+
+  Style? styleType;
 
   double? leadingWidth;
 
@@ -30,6 +33,7 @@ class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
       toolbarHeight: height,
       automaticallyImplyLeading: false,
       backgroundColor: Colors.transparent,
+      flexibleSpace: _getStyle(),
       leadingWidth: leadingWidth ?? 0,
       leading: leading,
       title: title,
@@ -44,4 +48,24 @@ class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
         size.width,
         height,
       );
+  _getStyle() {
+    switch (styleType) {
+      case Style.bgFillBlack90001:
+        return Container(
+          height: getVerticalSize(
+            40,
+          ),
+          width: double.maxFinite,
+          decoration: BoxDecoration(
+            color: ColorConstant.black90001,
+          ),
+        );
+      default:
+        return null;
+    }
+  }
+}
+
+enum Style {
+  bgFillBlack90001,
 }

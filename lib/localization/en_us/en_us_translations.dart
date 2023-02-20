@@ -52,7 +52,6 @@ final Map<String, String> enUs = {
   "lbl_paityn_press": "Paityn Press",
   "lbl_reading_list": "Reading list",
   "lbl_interest": "Interest",
-  "lbl_article_detail": "Article Detail",
   "lbl_welcome_screen": "Welcome Screen",
   "lbl_psychology": "Psychology",
   "lbl_post": "Post",

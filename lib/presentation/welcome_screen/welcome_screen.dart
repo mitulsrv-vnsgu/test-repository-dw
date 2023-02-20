@@ -32,8 +32,8 @@ class WelcomeScreen extends GetWidget<WelcomeController> {
                           child: Text("msg_let_s_find_people".tr,
                               maxLines: null,
                               textAlign: TextAlign.center,
-                              style: AppStyle
-                                  .txtRobotoRomanRegular14WhiteA700991)),
+                              style:
+                                  AppStyle.txtRobotoRomanRegular14WhiteA70099)),
                       Padding(
                           padding: getPadding(top: 31),
                           child: Divider(

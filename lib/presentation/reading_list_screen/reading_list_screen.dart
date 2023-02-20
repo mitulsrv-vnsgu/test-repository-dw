@@ -59,8 +59,8 @@ class ReadingListScreen extends GetWidget<ReadingListController> {
                                       Text("lbl_paityn_press".tr,
                                           overflow: TextOverflow.ellipsis,
                                           textAlign: TextAlign.left,
-                                          style:
-                                              AppStyle.txtRobotoRomanRegular12),
+                                          style: AppStyle
+                                              .txtRobotoRomanRegular12WhiteA700a2),
                                       Padding(
                                           padding: getPadding(top: 1),
                                           child: Row(
@@ -154,7 +154,7 @@ class ReadingListScreen extends GetWidget<ReadingListController> {
                                                 overflow: TextOverflow.ellipsis,
                                                 textAlign: TextAlign.left,
                                                 style: AppStyle
-                                                    .txtRobotoRomanRegular12))
+                                                    .txtRobotoRomanRegular12WhiteA700a2))
                                       ]),
                                       Container(
                                           width: getHorizontalSize(251),
@@ -278,7 +278,7 @@ class ReadingListScreen extends GetWidget<ReadingListController> {
                                                 overflow: TextOverflow.ellipsis,
                                                 textAlign: TextAlign.left,
                                                 style: AppStyle
-                                                    .txtRobotoRomanRegular12))
+                                                    .txtRobotoRomanRegular12WhiteA700a2))
                                       ]),
                                       Container(
                                           width: getHorizontalSize(232),
@@ -388,7 +388,7 @@ class ReadingListScreen extends GetWidget<ReadingListController> {
                                                 overflow: TextOverflow.ellipsis,
                                                 textAlign: TextAlign.left,
                                                 style: AppStyle
-                                                    .txtRobotoRomanRegular12))
+                                                    .txtRobotoRomanRegular12WhiteA700a2))
                                       ]),
                                       Container(
                                           width: getHorizontalSize(221),

@@ -47,7 +47,7 @@ class HomeItemWidget extends StatelessWidget {
                     "lbl_paityn_press".tr,
                     overflow: TextOverflow.ellipsis,
                     textAlign: TextAlign.left,
-                    style: AppStyle.txtRobotoRomanRegular12,
+                    style: AppStyle.txtRobotoRomanRegular12WhiteA700a2,
                   ),
                 ),
               ],

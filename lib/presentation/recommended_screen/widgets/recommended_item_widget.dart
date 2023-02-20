@@ -63,7 +63,7 @@ class RecommendedItemWidget extends StatelessWidget {
                     "msg_new_york_based".tr,
                     maxLines: null,
                     textAlign: TextAlign.left,
-                    style: AppStyle.txtRobotoRomanRegular12WhiteA700a9,
+                    style: AppStyle.txtRobotoRomanRegular12,
                   ),
                 ),
               ],

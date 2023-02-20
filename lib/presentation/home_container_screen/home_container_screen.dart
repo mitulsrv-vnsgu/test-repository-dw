@@ -2,7 +2,6 @@ import 'controller/home_container_controller.dart';
 import 'package:auto_identification_percentage/core/app_export.dart';
 import 'package:auto_identification_percentage/presentation/explore_page/explore_page.dart';
 import 'package:auto_identification_percentage/presentation/home_page/home_page.dart';
-import 'package:auto_identification_percentage/presentation/profile_page/profile_page.dart';
 import 'package:auto_identification_percentage/presentation/saved_recently_viewed_page/saved_recently_viewed_page.dart';
 import 'package:auto_identification_percentage/widgets/custom_bottom_bar.dart';
 import 'package:flutter/material.dart';
@@ -34,7 +33,7 @@ class HomeContainerScreen extends GetWidget<HomeContainerController> {
       case BottomBarEnum.Bookmark:
         return AppRoutes.savedRecentlyViewedPage;
       case BottomBarEnum.Unsplashj5almo1e8ru:
-        return AppRoutes.profilePage;
+        return "/";
       default:
         return "/";
     }
@@ -48,8 +47,6 @@ class HomeContainerScreen extends GetWidget<HomeContainerController> {
         return ExplorePage();
       case AppRoutes.savedRecentlyViewedPage:
         return SavedRecentlyViewedPage();
-      case AppRoutes.profilePage:
-        return ProfilePage();
       default:
         return DefaultWidget();
     }

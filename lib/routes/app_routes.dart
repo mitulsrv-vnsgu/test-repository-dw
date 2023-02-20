@@ -33,8 +33,6 @@ import 'package:auto_identification_percentage/presentation/app_navigation_scree
 import 'package:get/get.dart';
 
 class AppRoutes {
-  static const String profilePage = '/profile_page';
-
   static const String splashScreen = '/splash_screen';
 
   static const String joinMediumScreen = '/join_medium_screen';

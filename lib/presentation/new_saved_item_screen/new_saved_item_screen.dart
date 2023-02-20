@@ -2,7 +2,6 @@ import 'controller/new_saved_item_controller.dart';
 import 'package:auto_identification_percentage/core/app_export.dart';
 import 'package:auto_identification_percentage/presentation/explore_page/explore_page.dart';
 import 'package:auto_identification_percentage/presentation/home_page/home_page.dart';
-import 'package:auto_identification_percentage/presentation/profile_page/profile_page.dart';
 import 'package:auto_identification_percentage/presentation/saved_recently_viewed_page/saved_recently_viewed_page.dart';
 import 'package:auto_identification_percentage/widgets/custom_bottom_bar.dart';
 import 'package:auto_identification_percentage/widgets/custom_button.dart';
@@ -73,7 +72,7 @@ class NewSavedItemScreen extends GetWidget<NewSavedItemController> {
                           "lbl_saved".tr,
                           overflow: TextOverflow.ellipsis,
                           textAlign: TextAlign.left,
-                          style: AppStyle.txtRobotoRomanRegular14WhiteA70099,
+                          style: AppStyle.txtRobotoRomanRegular14WhiteA700991,
                         ),
                       ),
                       Padding(
@@ -85,7 +84,7 @@ class NewSavedItemScreen extends GetWidget<NewSavedItemController> {
                           "lbl_highlighted".tr,
                           overflow: TextOverflow.ellipsis,
                           textAlign: TextAlign.left,
-                          style: AppStyle.txtRobotoRomanRegular14WhiteA70099,
+                          style: AppStyle.txtRobotoRomanRegular14WhiteA700991,
                         ),
                       ),
                       Padding(
@@ -97,7 +96,7 @@ class NewSavedItemScreen extends GetWidget<NewSavedItemController> {
                           "lbl_recently_viewed".tr,
                           overflow: TextOverflow.ellipsis,
                           textAlign: TextAlign.left,
-                          style: AppStyle.txtRobotoRomanRegular14WhiteA70099,
+                          style: AppStyle.txtRobotoRomanRegular14WhiteA700991,
                         ),
                       ),
                     ],
@@ -397,7 +396,7 @@ class NewSavedItemScreen extends GetWidget<NewSavedItemController> {
       case BottomBarEnum.Bookmark:
         return AppRoutes.savedRecentlyViewedPage;
       case BottomBarEnum.Unsplashj5almo1e8ru:
-        return AppRoutes.profilePage;
+        return "/";
       default:
         return "/";
     }
@@ -412,8 +411,6 @@ class NewSavedItemScreen extends GetWidget<NewSavedItemController> {
         return ExplorePage();
       case AppRoutes.savedRecentlyViewedPage:
         return SavedRecentlyViewedPage();
-      case AppRoutes.profilePage:
-        return ProfilePage();
       default:
         return DefaultWidget();
     }

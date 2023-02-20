@@ -41,8 +41,8 @@ class InterestScreen extends GetWidget<InterestController> {
                           child: Text("msg_choose_three_or".tr,
                               overflow: TextOverflow.ellipsis,
                               textAlign: TextAlign.left,
-                              style:
-                                  AppStyle.txtRobotoRomanRegular14WhiteA70099)),
+                              style: AppStyle
+                                  .txtRobotoRomanRegular14WhiteA700991)),
                       Container(
                           height: getVerticalSize(580),
                           width: double.maxFinite,
@@ -120,7 +120,7 @@ class InterestScreen extends GetWidget<InterestController> {
                                                                           TextAlign
                                                                               .left,
                                                                       style: AppStyle
-                                                                          .txtRobotoRomanRegular14WhiteA70099)
+                                                                          .txtRobotoRomanRegular14WhiteA700991)
                                                                 ])),
                                                         Container(
                                                             padding: getPadding(
@@ -152,7 +152,7 @@ class InterestScreen extends GetWidget<InterestController> {
                                                                           TextAlign
                                                                               .left,
                                                                       style: AppStyle
-                                                                          .txtRobotoRomanRegular14WhiteA70099)
+                                                                          .txtRobotoRomanRegular14WhiteA700991)
                                                                 ])),
                                                         Container(
                                                             padding: getPadding(
@@ -186,7 +186,7 @@ class InterestScreen extends GetWidget<InterestController> {
                                                                           textAlign: TextAlign
                                                                               .left,
                                                                           style:
-                                                                              AppStyle.txtRobotoRomanRegular14WhiteA70099))
+                                                                              AppStyle.txtRobotoRomanRegular14WhiteA700991))
                                                                 ])),
                                                         Container(
                                                             padding: getPadding(
@@ -218,7 +218,7 @@ class InterestScreen extends GetWidget<InterestController> {
                                                                           TextAlign
                                                                               .left,
                                                                       style: AppStyle
-                                                                          .txtRobotoRomanRegular14WhiteA70099)
+                                                                          .txtRobotoRomanRegular14WhiteA700991)
                                                                 ]))
                                                       ]))
                                             ]))),

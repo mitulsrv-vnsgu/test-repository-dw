@@ -129,9 +129,8 @@ class RecommendedScreen extends GetWidget<RecommendedController> {
   }
 
   onTapFinish() {
-    Get.toNamed(AppRoutes.homeContainerScreen);
+// TODO: implement Actions
   }
-
   onTapArrowleft1() {
     Get.back();
   }

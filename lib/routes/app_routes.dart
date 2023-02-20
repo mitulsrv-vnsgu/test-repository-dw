@@ -12,8 +12,6 @@ import 'package:auto_identification_percentage/presentation/recommended_screen/r
 import 'package:auto_identification_percentage/presentation/recommended_screen/binding/recommended_binding.dart';
 import 'package:auto_identification_percentage/presentation/sign_in_with_email_screen/sign_in_with_email_screen.dart';
 import 'package:auto_identification_percentage/presentation/sign_in_with_email_screen/binding/sign_in_with_email_binding.dart';
-import 'package:auto_identification_percentage/presentation/home_container_screen/home_container_screen.dart';
-import 'package:auto_identification_percentage/presentation/home_container_screen/binding/home_container_binding.dart';
 import 'package:auto_identification_percentage/presentation/article_detail_screen/article_detail_screen.dart';
 import 'package:auto_identification_percentage/presentation/article_detail_screen/binding/article_detail_binding.dart';
 import 'package:auto_identification_percentage/presentation/create_post_screen/create_post_screen.dart';
@@ -46,8 +44,6 @@ class AppRoutes {
   static const String signInWithEmailScreen = '/sign_in_with_email_screen';
 
   static const String homePage = '/home_page';
-
-  static const String homeContainerScreen = '/home_container_screen';
 
   static const String articleDetailScreen = '/article_detail_screen';
 
@@ -117,13 +113,6 @@ class AppRoutes {
       page: () => SignInWithEmailScreen(),
       bindings: [
         SignInWithEmailBinding(),
-      ],
-    ),
-    GetPage(
-      name: homeContainerScreen,
-      page: () => HomeContainerScreen(),
-      bindings: [
-        HomeContainerBinding(),
       ],
     ),
     GetPage(

@@ -1,8 +1,5 @@
 import 'controller/new_saved_item_controller.dart';
 import 'package:auto_identification_percentage/core/app_export.dart';
-import 'package:auto_identification_percentage/presentation/explore_page/explore_page.dart';
-import 'package:auto_identification_percentage/presentation/home_page/home_page.dart';
-import 'package:auto_identification_percentage/presentation/saved_recently_viewed_page/saved_recently_viewed_page.dart';
 import 'package:auto_identification_percentage/widgets/custom_bottom_bar.dart';
 import 'package:auto_identification_percentage/widgets/custom_button.dart';
 import 'package:auto_identification_percentage/widgets/custom_icon_button.dart';
@@ -378,41 +375,9 @@ class NewSavedItemScreen extends GetWidget<NewSavedItemController> {
           ),
         ),
         bottomNavigationBar: CustomBottomBar(
-          onChanged: (BottomBarEnum type) {
-            Get.toNamed(getCurrentRoute(type), id: 1);
-          },
+          onChanged: (BottomBarEnum type) {},
         ),
       ),
     );
-  }
-
-  ///Handling route based on bottom click actions
-  String getCurrentRoute(BottomBarEnum type) {
-    switch (type) {
-      case BottomBarEnum.Mail:
-        return AppRoutes.homePage;
-      case BottomBarEnum.Search:
-        return AppRoutes.explorePage;
-      case BottomBarEnum.Bookmark:
-        return AppRoutes.savedRecentlyViewedPage;
-      case BottomBarEnum.Unsplashj5almo1e8ru:
-        return "/";
-      default:
-        return "/";
-    }
-  }
-
-  ///Handling page based on route
-  Widget getCurrentPage(String currentRoute) {
-    switch (currentRoute) {
-      case AppRoutes.homePage:
-        return HomePage();
-      case AppRoutes.explorePage:
-        return ExplorePage();
-      case AppRoutes.savedRecentlyViewedPage:
-        return SavedRecentlyViewedPage();
-      default:
-        return DefaultWidget();
-    }
   }
 }

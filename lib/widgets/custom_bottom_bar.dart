@@ -8,16 +8,16 @@ class CustomBottomBar extends StatelessWidget {
 
   List<BottomMenuModel> bottomMenuList = [
     BottomMenuModel(
-      icon: ImageConstant.imgMail,
-      type: BottomBarEnum.Mail,
+      icon: ImageConstant.imgHome,
+      type: BottomBarEnum.Home,
     ),
     BottomMenuModel(
       icon: ImageConstant.imgSearch,
       type: BottomBarEnum.Search,
     ),
     BottomMenuModel(
-      icon: ImageConstant.imgBookmark,
-      type: BottomBarEnum.Bookmark,
+      icon: ImageConstant.imgBookmarkGreen800,
+      type: BottomBarEnum.Bookmarkgreen800,
     ),
     BottomMenuModel(
       icon: ImageConstant.imgUnsplashj5almo1e8ru,
@@ -88,9 +88,9 @@ class CustomBottomBar extends StatelessWidget {
 }
 
 enum BottomBarEnum {
-  Mail,
+  Home,
   Search,
-  Bookmark,
+  Bookmarkgreen800,
   Unsplashj5almo1e8ru,
 }
 

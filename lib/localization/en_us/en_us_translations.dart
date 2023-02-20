@@ -94,7 +94,6 @@ final Map<String, String> enUs = {
   "lbl_22": "22",
   "msg_let_s_find_people":
       "Let’s find people to follow based on your\ninterests.",
-  "msg_home_container": "Home - Container",
   "lbl_12_following": "12 Following",
   "lbl_cryptocurrency": "Cryptocurrency",
   "lbl_adison_philips": "Adison Philips",

@@ -152,7 +152,6 @@ final Map<String, String> enUs = {
   "lbl_create_a_post": "Create a post",
   "lbl_search_medium": "Search Medium",
   "lbl_education": "Education",
-  "msg_reading_list_options": "Reading list options",
   "msg_recommended_for": "Recommended for you.",
   "lbl_explore": "Explore",
   "msg_terms_of_service": "Terms of Service ",

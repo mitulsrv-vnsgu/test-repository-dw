@@ -5,8 +5,6 @@ import 'package:auto_identification_percentage/presentation/publish_post_bottoms
 import 'package:auto_identification_percentage/presentation/publish_post_bottomsheet/controller/publish_post_controller.dart';
 import 'package:auto_identification_percentage/presentation/save_to_bottomsheet/save_to_bottomsheet.dart';
 import 'package:auto_identification_percentage/presentation/save_to_bottomsheet/controller/save_to_controller.dart';
-import 'package:auto_identification_percentage/presentation/reading_list_options_bottomsheet/reading_list_options_bottomsheet.dart';
-import 'package:auto_identification_percentage/presentation/reading_list_options_bottomsheet/controller/reading_list_options_controller.dart';
 
 class AppNavigationScreen extends GetWidget<AppNavigationController> {
   @override
@@ -406,49 +404,6 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                                     ]))),
                                         GestureDetector(
                                             onTap: () {
-                                              onTapReadinglistoptions();
-                                            },
-                                            child: Container(
-                                                decoration:
-                                                    AppDecoration.fillWhiteA700,
-                                                child: Column(
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.start,
-                                                    children: [
-                                                      Align(
-                                                          alignment: Alignment
-                                                              .centerLeft,
-                                                          child: Padding(
-                                                              padding:
-                                                                  getPadding(
-                                                                      left: 20,
-                                                                      top: 10,
-                                                                      right: 20,
-                                                                      bottom:
-                                                                          10),
-                                                              child: Text(
-                                                                  "msg_reading_list_options"
-                                                                      .tr,
-                                                                  overflow:
-                                                                      TextOverflow
-                                                                          .ellipsis,
-                                                                  textAlign:
-                                                                      TextAlign
-                                                                          .center,
-                                                                  style: AppStyle
-                                                                      .txtRobotoRegular20))),
-                                                      Padding(
-                                                          padding: getPadding(
-                                                              top: 5),
-                                                          child: Divider(
-                                                              thickness:
-                                                                  getVerticalSize(
-                                                                      1),
-                                                              color: ColorConstant
-                                                                  .blueGray400))
-                                                    ]))),
-                                        GestureDetector(
-                                            onTap: () {
                                               onTapSearchhistory();
                                             },
                                             child: Container(
@@ -620,17 +575,6 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
       SaveToBottomsheet(
         Get.put(
           SaveToController(),
-        ),
-      ),
-      isScrollControlled: true,
-    );
-  }
-
-  onTapReadinglistoptions() {
-    Get.bottomSheet(
-      ReadingListOptionsBottomsheet(
-        Get.put(
-          ReadingListOptionsController(),
         ),
       ),
       isScrollControlled: true,

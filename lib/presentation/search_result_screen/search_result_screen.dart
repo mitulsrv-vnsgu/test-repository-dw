@@ -4,7 +4,7 @@ import 'models/search_result_item_model.dart';
 import 'package:auto_identification_percentage/core/app_export.dart';
 import 'package:auto_identification_percentage/widgets/app_bar/appbar_image.dart';
 import 'package:auto_identification_percentage/widgets/app_bar/appbar_searchview.dart';
-import 'package:auto_identification_percentage/widgets/app_bar/appbar_subtitle_1.dart';
+import 'package:auto_identification_percentage/widgets/app_bar/appbar_subtitle.dart';
 import 'package:auto_identification_percentage/widgets/app_bar/custom_app_bar.dart';
 import 'package:flutter/material.dart';
 
@@ -28,7 +28,7 @@ class SearchResultScreen extends GetWidget<SearchResultController> {
                     hintText: "lbl_android".tr,
                     controller: controller.groupFortySevenController),
                 actions: [
-                  AppbarSubtitle1(
+                  AppbarSubtitle(
                       text: "lbl_cancel".tr,
                       margin:
                           getMargin(left: 9, top: 19, right: 18, bottom: 19))

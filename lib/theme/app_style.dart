@@ -29,24 +29,6 @@ class AppStyle {
     fontWeight: FontWeight.w600,
   );
 
-  static TextStyle txtRobotoRomanRegular16WhiteA70087 = TextStyle(
-    color: ColorConstant.whiteA70087,
-    fontSize: getFontSize(
-      16,
-    ),
-    fontFamily: 'Roboto',
-    fontWeight: FontWeight.w400,
-  );
-
-  static TextStyle txtRobotoRomanRegular12WhiteA700a9 = TextStyle(
-    color: ColorConstant.whiteA700A9,
-    fontSize: getFontSize(
-      12,
-    ),
-    fontFamily: 'Roboto',
-    fontWeight: FontWeight.w400,
-  );
-
   static TextStyle txtRobotoRomanMedium14WhiteA700 = TextStyle(
     color: ColorConstant.whiteA700,
     fontSize: getFontSize(
@@ -54,15 +36,6 @@ class AppStyle {
     ),
     fontFamily: 'Roboto',
     fontWeight: FontWeight.w500,
-  );
-
-  static TextStyle txtRobotoRomanRegular14WhiteA700992 = TextStyle(
-    color: ColorConstant.whiteA70099,
-    fontSize: getFontSize(
-      14,
-    ),
-    fontFamily: 'Roboto',
-    fontWeight: FontWeight.w400,
   );
 
   static TextStyle txtRobotoRomanRegular14WhiteA700991 = TextStyle(
@@ -92,24 +65,6 @@ class AppStyle {
     fontWeight: FontWeight.w400,
   );
 
-  static TextStyle txtRobotoRomanRegular14WhiteA7001 = TextStyle(
-    color: ColorConstant.whiteA700,
-    fontSize: getFontSize(
-      14,
-    ),
-    fontFamily: 'Roboto',
-    fontWeight: FontWeight.w400,
-  );
-
-  static TextStyle txtRobotoRomanRegular14Green800 = TextStyle(
-    color: ColorConstant.green800,
-    fontSize: getFontSize(
-      14,
-    ),
-    fontFamily: 'Roboto',
-    fontWeight: FontWeight.w400,
-  );
-
   static TextStyle txtRobotoRomanRegular14WhiteA700 = TextStyle(
     color: ColorConstant.whiteA700,
     fontSize: getFontSize(
@@ -126,15 +81,6 @@ class AppStyle {
     ),
     fontFamily: 'Roboto',
     fontWeight: FontWeight.w400,
-  );
-
-  static TextStyle txtRobotoRomanSemiBold20 = TextStyle(
-    color: ColorConstant.whiteA700,
-    fontSize: getFontSize(
-      20,
-    ),
-    fontFamily: 'Roboto',
-    fontWeight: FontWeight.w600,
   );
 
   static TextStyle txtRobotoRomanRegular12WhiteA70099 = TextStyle(
@@ -159,6 +105,15 @@ class AppStyle {
     color: ColorConstant.whiteA70087,
     fontSize: getFontSize(
       12,
+    ),
+    fontFamily: 'Roboto',
+    fontWeight: FontWeight.w400,
+  );
+
+  static TextStyle txtRobotoRomanRegular14Gray40099 = TextStyle(
+    color: ColorConstant.gray40099,
+    fontSize: getFontSize(
+      14,
     ),
     fontFamily: 'Roboto',
     fontWeight: FontWeight.w400,
@@ -218,15 +173,6 @@ class AppStyle {
     fontWeight: FontWeight.w400,
   );
 
-  static TextStyle txtRobotoBlack18 = TextStyle(
-    color: ColorConstant.whiteA700,
-    fontSize: getFontSize(
-      18,
-    ),
-    fontFamily: 'Roboto',
-    fontWeight: FontWeight.w900,
-  );
-
   static TextStyle txtRobotoRomanRegular12WhiteA700 = TextStyle(
     color: ColorConstant.whiteA700,
     fontSize: getFontSize(
@@ -263,17 +209,8 @@ class AppStyle {
     fontWeight: FontWeight.w400,
   );
 
-  static TextStyle txtRobotoRomanSemiBold12 = TextStyle(
-    color: ColorConstant.whiteA70099,
-    fontSize: getFontSize(
-      12,
-    ),
-    fontFamily: 'Roboto',
-    fontWeight: FontWeight.w600,
-  );
-
   static TextStyle txtRobotoRomanRegular12 = TextStyle(
-    color: ColorConstant.black900Dd,
+    color: ColorConstant.whiteA700A9,
     fontSize: getFontSize(
       12,
     ),
@@ -290,19 +227,19 @@ class AppStyle {
     fontWeight: FontWeight.w500,
   );
 
-  static TextStyle txtRobotoRomanRegular10Black9007b = TextStyle(
-    color: ColorConstant.black9007b,
+  static TextStyle txtRobotoRomanRegular14 = TextStyle(
+    color: ColorConstant.whiteA700,
     fontSize: getFontSize(
-      10,
+      14,
     ),
     fontFamily: 'Roboto',
     fontWeight: FontWeight.w400,
   );
 
-  static TextStyle txtRobotoRomanRegular14 = TextStyle(
-    color: ColorConstant.gray40099,
+  static TextStyle txtRobotoRomanRegular10Black9007b = TextStyle(
+    color: ColorConstant.black9007b,
     fontSize: getFontSize(
-      14,
+      10,
     ),
     fontFamily: 'Roboto',
     fontWeight: FontWeight.w400,

@@ -52,8 +52,6 @@ final Map<String, String> enUs = {
   "lbl_paityn_press": "Paityn Press",
   "lbl_reading_list": "Reading list",
   "lbl_interest": "Interest",
-  "lbl_article_detail": "Article Detail",
-  "lbl_welcome_screen": "Welcome Screen",
   "lbl_psychology": "Psychology",
   "lbl_post": "Post",
   "lbl_view_stats": "View stats",
@@ -94,7 +92,6 @@ final Map<String, String> enUs = {
   "lbl_22": "22",
   "msg_let_s_find_people":
       "Let’s find people to follow based on your\ninterests.",
-  "msg_home_container": "Home - Container",
   "lbl_12_following": "12 Following",
   "lbl_cryptocurrency": "Cryptocurrency",
   "lbl_adison_philips": "Adison Philips",
@@ -131,7 +128,6 @@ final Map<String, String> enUs = {
   "lbl_travel": "Travel",
   "lbl_share": "Share",
   "lbl_start_a_list": "Start a list",
-  "lbl_create_post": "Create post",
   "msg_choose_three_or": "Choose three or more.",
   "msg_how_to_improve_your":
       "How to improve your UI design skills\nin 5 minutes a day",

@@ -3,7 +3,7 @@ import 'controller/recommended_controller.dart';
 import 'models/recommended_item_model.dart';
 import 'package:auto_identification_percentage/core/app_export.dart';
 import 'package:auto_identification_percentage/widgets/app_bar/appbar_image.dart';
-import 'package:auto_identification_percentage/widgets/app_bar/appbar_subtitle.dart';
+import 'package:auto_identification_percentage/widgets/app_bar/appbar_title.dart';
 import 'package:auto_identification_percentage/widgets/app_bar/custom_app_bar.dart';
 import 'package:auto_identification_percentage/widgets/custom_button.dart';
 import 'package:flutter/material.dart';
@@ -24,7 +24,7 @@ class RecommendedScreen extends GetWidget<RecommendedController> {
                     margin: getMargin(left: 16, top: 5, bottom: 5),
                     onTap: onTapArrowleft1),
                 centerTitle: true,
-                title: AppbarSubtitle(text: "msg_welcome_to_medium".tr)),
+                title: AppbarTitle(text: "msg_welcome_to_medium".tr)),
             body: Container(
                 width: double.maxFinite,
                 child: Column(
@@ -129,9 +129,8 @@ class RecommendedScreen extends GetWidget<RecommendedController> {
   }
 
   onTapFinish() {
-    Get.toNamed(AppRoutes.homeContainerScreen);
+// TODO: implement Actions
   }
-
   onTapArrowleft1() {
     Get.back();
   }

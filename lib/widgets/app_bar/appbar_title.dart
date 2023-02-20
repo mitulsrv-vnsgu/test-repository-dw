@@ -2,8 +2,8 @@ import 'package:auto_identification_percentage/core/app_export.dart';
 import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
-class AppbarSubtitle3 extends StatelessWidget {
-  AppbarSubtitle3({required this.text, this.margin, this.onTap});
+class AppbarTitle extends StatelessWidget {
+  AppbarTitle({required this.text, this.margin, this.onTap});
 
   String text;
 
@@ -23,8 +23,8 @@ class AppbarSubtitle3 extends StatelessWidget {
           text,
           overflow: TextOverflow.ellipsis,
           textAlign: TextAlign.left,
-          style: AppStyle.txtRobotoRomanRegular14WhiteA70099.copyWith(
-            color: ColorConstant.whiteA70099,
+          style: AppStyle.txtRobotoRomanMedium16.copyWith(
+            color: ColorConstant.whiteA700,
           ),
         ),
       ),

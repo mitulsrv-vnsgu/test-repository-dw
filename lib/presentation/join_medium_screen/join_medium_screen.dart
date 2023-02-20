@@ -227,6 +227,6 @@ class JoinMediumScreen extends GetWidget<JoinMediumController> {
   }
 
   onTapTxtAlreadyhavean() {
-    Get.toNamed(AppRoutes.signInScreen);
+// TODO: implement Actions
   }
 }

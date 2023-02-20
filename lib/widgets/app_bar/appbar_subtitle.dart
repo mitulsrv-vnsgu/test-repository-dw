@@ -23,7 +23,7 @@ class AppbarSubtitle extends StatelessWidget {
           text,
           overflow: TextOverflow.ellipsis,
           textAlign: TextAlign.left,
-          style: AppStyle.txtRobotoRomanMedium16.copyWith(
+          style: AppStyle.txtRobotoRomanRegular14.copyWith(
             color: ColorConstant.whiteA700,
           ),
         ),

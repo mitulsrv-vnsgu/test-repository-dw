@@ -5,14 +5,8 @@ class AppDecoration {
   static BoxDecoration get fillGray90006 => BoxDecoration(
         color: ColorConstant.gray90006,
       );
-  static BoxDecoration get fillGray90005 => BoxDecoration(
-        color: ColorConstant.gray90005,
-      );
   static BoxDecoration get txtFillGray800 => BoxDecoration(
         color: ColorConstant.gray800,
-      );
-  static BoxDecoration get fillGray900 => BoxDecoration(
-        color: ColorConstant.gray900,
       );
   static BoxDecoration get outlineGray90007 => BoxDecoration(
         color: ColorConstant.gray90004,
@@ -39,9 +33,6 @@ class AppDecoration {
       );
   static BoxDecoration get fillGray90002 => BoxDecoration(
         color: ColorConstant.gray90002,
-      );
-  static BoxDecoration get txtFillGray90004 => BoxDecoration(
-        color: ColorConstant.gray90004,
       );
   static BoxDecoration get fillGray90001 => BoxDecoration(
         color: ColorConstant.gray90001,
@@ -72,18 +63,6 @@ class AppDecoration {
 }
 
 class BorderRadiusStyle {
-  static BorderRadius txtCircleBorder16 = BorderRadius.circular(
-    getHorizontalSize(
-      16,
-    ),
-  );
-
-  static BorderRadius circleBorder34 = BorderRadius.circular(
-    getHorizontalSize(
-      34,
-    ),
-  );
-
   static BorderRadius circleBorder24 = BorderRadius.circular(
     getHorizontalSize(
       24,
@@ -93,12 +72,6 @@ class BorderRadiusStyle {
   static BorderRadius circleBorder14 = BorderRadius.circular(
     getHorizontalSize(
       14,
-    ),
-  );
-
-  static BorderRadius circleBorder30 = BorderRadius.circular(
-    getHorizontalSize(
-      30,
     ),
   );
 

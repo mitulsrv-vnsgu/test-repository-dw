@@ -80,7 +80,8 @@ class SavedRecentlyViewedPage extends StatelessWidget {
                                   "lbl_saved".tr,
                                   overflow: TextOverflow.ellipsis,
                                   textAlign: TextAlign.left,
-                                  style: AppStyle.txtRobotoRomanRegular14,
+                                  style:
+                                      AppStyle.txtRobotoRomanRegular14Gray40099,
                                 ),
                               ),
                               CustomTextFormField(
@@ -105,7 +106,8 @@ class SavedRecentlyViewedPage extends StatelessWidget {
                                   "lbl_highlights".tr,
                                   overflow: TextOverflow.ellipsis,
                                   textAlign: TextAlign.left,
-                                  style: AppStyle.txtRobotoRomanRegular14,
+                                  style:
+                                      AppStyle.txtRobotoRomanRegular14Gray40099,
                                 ),
                               ),
                             ],

@@ -120,6 +120,6 @@ class ExplorePage extends StatelessWidget {
   }
 
   onTapBtnFloatingactionbutton() {
-    Get.toNamed(AppRoutes.createPostScreen);
+// TODO: implement Actions
   }
 }

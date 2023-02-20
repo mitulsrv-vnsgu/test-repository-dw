@@ -128,7 +128,6 @@ final Map<String, String> enUs = {
   "lbl_travel": "Travel",
   "lbl_share": "Share",
   "lbl_start_a_list": "Start a list",
-  "lbl_create_post": "Create post",
   "msg_choose_three_or": "Choose three or more.",
   "msg_how_to_improve_your":
       "How to improve your UI design skills\nin 5 minutes a day",

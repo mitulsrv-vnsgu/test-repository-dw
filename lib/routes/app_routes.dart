@@ -10,8 +10,6 @@ import 'package:auto_identification_percentage/presentation/recommended_screen/r
 import 'package:auto_identification_percentage/presentation/recommended_screen/binding/recommended_binding.dart';
 import 'package:auto_identification_percentage/presentation/sign_in_with_email_screen/sign_in_with_email_screen.dart';
 import 'package:auto_identification_percentage/presentation/sign_in_with_email_screen/binding/sign_in_with_email_binding.dart';
-import 'package:auto_identification_percentage/presentation/create_post_screen/create_post_screen.dart';
-import 'package:auto_identification_percentage/presentation/create_post_screen/binding/create_post_binding.dart';
 import 'package:auto_identification_percentage/presentation/reading_list_screen/reading_list_screen.dart';
 import 'package:auto_identification_percentage/presentation/reading_list_screen/binding/reading_list_binding.dart';
 import 'package:auto_identification_percentage/presentation/search_history_screen/search_history_screen.dart';
@@ -40,8 +38,6 @@ class AppRoutes {
   static const String homePage = '/home_page';
 
   static const String explorePage = '/explore_page';
-
-  static const String createPostScreen = '/create_post_screen';
 
   static const String readingListScreen = '/reading_list_screen';
 
@@ -98,13 +94,6 @@ class AppRoutes {
       page: () => SignInWithEmailScreen(),
       bindings: [
         SignInWithEmailBinding(),
-      ],
-    ),
-    GetPage(
-      name: createPostScreen,
-      page: () => CreatePostScreen(),
-      bindings: [
-        CreatePostBinding(),
       ],
     ),
     GetPage(

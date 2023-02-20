@@ -42,8 +42,8 @@ class RecommendedScreen extends GetWidget<RecommendedController> {
                           child: Text("msg_here_are_some_top".tr,
                               maxLines: null,
                               textAlign: TextAlign.center,
-                              style:
-                                  AppStyle.txtRobotoRomanRegular14WhiteA70099)),
+                              style: AppStyle
+                                  .txtRobotoRomanRegular14WhiteA700991)),
                       Padding(
                           padding: getPadding(top: 28),
                           child: Divider(

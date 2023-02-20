@@ -159,6 +159,6 @@ class SignUpWithEmailScreen extends GetWidget<SignUpWithEmailController> {
   }
 
   navigationDone() {
-    Get.toNamed(AppRoutes.welcomeScreen);
+// TODO: implement Actions
   }
 }

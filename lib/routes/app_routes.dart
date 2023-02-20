@@ -4,8 +4,6 @@ import 'package:auto_identification_percentage/presentation/join_medium_screen/j
 import 'package:auto_identification_percentage/presentation/join_medium_screen/binding/join_medium_binding.dart';
 import 'package:auto_identification_percentage/presentation/sign_up_with_email_screen/sign_up_with_email_screen.dart';
 import 'package:auto_identification_percentage/presentation/sign_up_with_email_screen/binding/sign_up_with_email_binding.dart';
-import 'package:auto_identification_percentage/presentation/welcome_screen/welcome_screen.dart';
-import 'package:auto_identification_percentage/presentation/welcome_screen/binding/welcome_binding.dart';
 import 'package:auto_identification_percentage/presentation/interest_screen/interest_screen.dart';
 import 'package:auto_identification_percentage/presentation/interest_screen/binding/interest_binding.dart';
 import 'package:auto_identification_percentage/presentation/recommended_screen/recommended_screen.dart';
@@ -32,8 +30,6 @@ class AppRoutes {
   static const String joinMediumScreen = '/join_medium_screen';
 
   static const String signUpWithEmailScreen = '/sign_up_with_email_screen';
-
-  static const String welcomeScreen = '/welcome_screen';
 
   static const String interestScreen = '/interest_screen';
 
@@ -81,13 +77,6 @@ class AppRoutes {
       page: () => SignUpWithEmailScreen(),
       bindings: [
         SignUpWithEmailBinding(),
-      ],
-    ),
-    GetPage(
-      name: welcomeScreen,
-      page: () => WelcomeScreen(),
-      bindings: [
-        WelcomeBinding(),
       ],
     ),
     GetPage(

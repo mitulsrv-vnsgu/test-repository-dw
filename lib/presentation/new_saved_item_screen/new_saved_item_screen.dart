@@ -69,7 +69,7 @@ class NewSavedItemScreen extends GetWidget<NewSavedItemController> {
                           "lbl_saved".tr,
                           overflow: TextOverflow.ellipsis,
                           textAlign: TextAlign.left,
-                          style: AppStyle.txtRobotoRomanRegular14WhiteA700991,
+                          style: AppStyle.txtRobotoRomanRegular14WhiteA70099,
                         ),
                       ),
                       Padding(
@@ -81,7 +81,7 @@ class NewSavedItemScreen extends GetWidget<NewSavedItemController> {
                           "lbl_highlighted".tr,
                           overflow: TextOverflow.ellipsis,
                           textAlign: TextAlign.left,
-                          style: AppStyle.txtRobotoRomanRegular14WhiteA700991,
+                          style: AppStyle.txtRobotoRomanRegular14WhiteA70099,
                         ),
                       ),
                       Padding(
@@ -93,7 +93,7 @@ class NewSavedItemScreen extends GetWidget<NewSavedItemController> {
                           "lbl_recently_viewed".tr,
                           overflow: TextOverflow.ellipsis,
                           textAlign: TextAlign.left,
-                          style: AppStyle.txtRobotoRomanRegular14WhiteA700991,
+                          style: AppStyle.txtRobotoRomanRegular14WhiteA70099,
                         ),
                       ),
                     ],

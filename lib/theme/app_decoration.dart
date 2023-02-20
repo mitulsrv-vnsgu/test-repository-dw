@@ -75,12 +75,6 @@ class BorderRadiusStyle {
     ),
   );
 
-  static BorderRadius circleBorder34 = BorderRadius.circular(
-    getHorizontalSize(
-      34,
-    ),
-  );
-
   static BorderRadius circleBorder24 = BorderRadius.circular(
     getHorizontalSize(
       24,
